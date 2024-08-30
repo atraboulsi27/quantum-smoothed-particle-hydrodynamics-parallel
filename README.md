@@ -199,6 +199,7 @@ Regarding the timing analysis we got the following results using the GProf profi
  Instructions per Cycle: 2.36
 
  Cache misses: 13.6%
+
 As it can be observed from the above graph, the MPI usage greatly reduces the overall
 execution time. It is worth mentioning that the overall performance is better when using
 OpenMP, and we theorize this fact is because of the higher overhead of the MPI library (this can
