@@ -164,13 +164,20 @@ loop to each thread had more optimal execution even if it is possible to make it
 ![image](https://github.com/user-attachments/assets/134d5750-ff2d-474f-84ec-51df2499fff7)
 
 Regarding the timing analysis we got the following results using the GProf profiler:
+
  Total execution time: 2.279 seconds (best result is reached at 16 threads)
+
  Disappearance of bottlenecks in the auxiliary functions
+
  Instructions per Cycle: 1.54
+
  Cache misses: 0.24%
+
 As it can be observed from the above graph, the OpenMP greatly reduces the overall
 execution time.
+
 MPI parallel implementation
+
 In this implementation, the Message Passing Interface (MPI) is used to parallelize the
 calculations for a QuantumSPH simulation. MPI enables the distribution of computational tasks
 across multiple processors, enhancing the efficiency and scalability of the simulation. The code
