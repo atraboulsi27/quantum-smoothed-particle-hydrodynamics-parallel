@@ -204,6 +204,9 @@ As it can be observed from the above graph, the MPI usage greatly reduces the ov
 execution time. It is worth mentioning that the overall performance is better when using
 OpenMP, and we theorize this fact is because of the higher overhead of the MPI library (this can
 be avoided if we use bigger datasets). 
+
 References
+
  https://github.com/pmocz/QuantumSPH
+
  Methods in High Performance Computing Lectures (Module 1, 2 & 3) 
